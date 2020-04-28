@@ -5,7 +5,8 @@ public class Chapter09 {
     double fuelCost = 12.5;
     double fuelAmount = 55.0;
 
-    // 上記で指定した値をCarクラスに渡す
+    // インスタンスの生成(コンストラクタを呼び出す)
+    // 上記で指定した値をコンストラクタに渡す
     Car car = new Car(fuelCost, fuelAmount);
 
     car.move(20);
