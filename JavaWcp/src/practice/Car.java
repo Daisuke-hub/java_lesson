@@ -1,10 +1,14 @@
 package practice;
 
 public class Car {
+
+  // メンバ変数
   // 使用する変数を宣言する
   private double fuelCost;
   private double fuelAmount;
 
+  // コンストラクタ => インスタンス生成時に呼び出される
+  // 主にクラスのメンバ変数を初期化するときに使用する
   public Car(double fuelCost, double fuelAmount){
     // 変数に引数で受け取った値を代入しておく
     this.fuelCost = fuelCost;
